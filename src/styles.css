@@ -38,8 +38,17 @@ form.form:after {
   display: flex;
 }
 
+ul.ui.list {
+  list-style: none;
+}
+
 ul.ui.list li:before {
   content: '';
+}
+
+ul.voters li {
+  display: inline-block;
+  width: 45%;
 }
 
 .voters {
